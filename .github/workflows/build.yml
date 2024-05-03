@@ -20,6 +20,6 @@ jobs:
       - run: cargo install cargo-tarpaulin
       - run: cargo cmd lint
       - run: cargo cmd test:coverage:lcov
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.codecov-token }}
