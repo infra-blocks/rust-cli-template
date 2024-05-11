@@ -15,3 +15,4 @@ Template repository for rust binaries. Upon instantiating, go through the follow
     - Rename the rest of the links to point to the right repository.
 - Replace/rename the relevant sections in this README
 - Prepare the [changelog](CHANGELOG.md) for the first version of the module that will be released.
+- Set up code coverage, overwrite the codecov badge with the specific link for your repository.
