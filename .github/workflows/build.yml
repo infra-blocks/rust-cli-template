@@ -16,11 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions-rust-lang/setup-rust-toolchain@v1
-      - run: cargo install cargo-commander
         # cargo-tarpaulin@0.30.0 breaks the build last time around.
       - run: cargo install cargo-tarpaulin@0.29.2
-      - run: cargo cmd lint
-      - run: cargo cmd test:coverage:lcov
+      - run: make lint
+      - run: make test.coverage.lcov
       - uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.codecov-token }}
