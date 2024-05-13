@@ -2,6 +2,3 @@
 name = "rust-library-template"
 version = "0.0.0"
 edition = "2021"
-
-[dependencies]
-clap = { version = "4.4.18" }
