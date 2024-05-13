@@ -1,8 +1,8 @@
 use clap::{Arg, ArgAction, Command};
-use rust_library_template::{do_stuff, Config};
+use rust_cli_template::{do_stuff, Config};
 
 fn main() {
-    let command = Command::new("rust-library-template")
+    let command = Command::new("rust-cli-template")
         .author("Phil Lavoie")
         .about("This program doesn't do shit.")
         .arg(

@@ -1,5 +1,5 @@
 [package]
-name = "rust-library-template"
+name = "rust-cli-template"
 version = "0.0.0"
 edition = "2021"
 
