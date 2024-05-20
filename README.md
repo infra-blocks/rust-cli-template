@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # rust-cli-template
 [![Build](https://github.com/infra-blocks/rust-cli-template/actions/workflows/build.yml/badge.svg)](https://github.com/infra-blocks/rust-cli-template/actions/workflows/build.yml)
 [![Release](https://github.com/infra-blocks/rust-cli-template/actions/workflows/release.yml/badge.svg)](https://github.com/infra-blocks/rust-cli-template/actions/workflows/release.yml)
 [![Trigger Update From Template](https://github.com/infra-blocks/rust-cli-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infra-blocks/rust-cli-template/actions/workflows/trigger-update-from-template.yml)
 [![codecov](https://codecov.io/gh/infra-blocks/rust-cli-template/graph/badge.svg?token=04IROACGDX)](https://codecov.io/gh/infra-blocks/rust-cli-template)
+=======
+# rust-library-template
+[![Build](https://github.com/infra-blocks/rust-library-template/actions/workflows/build.yml/badge.svg)](https://github.com/infra-blocks/rust-library-template/actions/workflows/build.yml)
+[![Release](https://github.com/infra-blocks/rust-library-template/actions/workflows/release.yml/badge.svg)](https://github.com/infra-blocks/rust-library-template/actions/workflows/release.yml)
+[![Trigger Update From Template](https://github.com/infra-blocks/rust-library-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infra-blocks/rust-library-template/actions/workflows/trigger-update-from-template.yml)
+[![codecov](https://codecov.io/gh/infra-blocks/rust-library-template/graph/badge.svg?token=CI538QWYH8)](https://codecov.io/gh/infra-blocks/rust-library-template)
+>>>>>>> template/master
 
 [//]: # ([![Update From Template]&#40;https://github.com/infra-blocks/rust-cli-template/actions/workflows/update-from-template.yml/badge.svg&#41;]&#40;https://github.com/infra-blocks/rust-cli-template/actions/workflows/update-from-template.yml&#41;)
 
